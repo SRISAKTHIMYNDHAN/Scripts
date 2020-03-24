@@ -22,5 +22,5 @@
   - name: Pull docker image from dockerhub
     command: docker pull myndhan7/docker-webapp-image:latest
 
-  - name: create container using deraviyam/docker-webapp-image
-    command: docker run -d --name docker-webapp-container -p 4000:8080 deraviyam/docker-webapp-image:latest
+  - name: create container using myndhan7/docker-webapp-image
+    command: docker run -d --name docker-webapp-container -p 4000:8080 myndhan7/docker-webapp-image:latest
